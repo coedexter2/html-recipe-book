@@ -1,0 +1,12 @@
+
+:root { 
+    --Italian-1-hex: #D4C2AD; 
+    --Italian-2-hex: #D7A184; 
+    --Italian-3-hex: #EFDFCC; 
+    --Italian-4-hex: #BA8E7A; 
+    --Italian-5-hex: #66796B; 
+}
+
+body {
+    background-color: var(--Italian-3-hex)
+}
