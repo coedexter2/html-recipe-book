@@ -1,12 +1,37 @@
 
 :root { 
-    --Italian-1-hex: #D4C2AD; 
-    --Italian-2-hex: #D7A184; 
-    --Italian-3-hex: #EFDFCC; 
-    --Italian-4-hex: #BA8E7A; 
-    --Italian-5-hex: #66796B; 
+    --Background-hex: #d0d0d0;  
+    --NavBar-hex: #4f4e4e;
+    --NavBarDark: #2c2a2a;
+}
+
+*{
+    font-family: Didot, 'Bodoni MT', 'Noto Serif Display', 'URW Palladio L', P052, Sylfaen, serif; 
 }
 
 body {
-    background-color: var(--Italian-3-hex)
+    background-color: var(--Background-hex)
+}
+
+ul:first-child{ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--NavBar-hex);
+}
+
+ul:first-child > li {
+    float: left;
+}
+
+ul:first-child > li > a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.75rem 6.3rem;
+    text-decoration: none;
+}
+ul:first-child > li > a:hover {
+    background-color: var(--NavBarDark);
 }
