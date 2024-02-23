@@ -1,16 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root { 
-    --Background-hex: #d0d0d0;  
+    --Background-hex: #f0f0f0;  
     --NavBar-hex: #4f4e4e;
     --NavBarDark: #2c2a2a;
 }
 
-*{
-    font-family: Didot, 'Bodoni MT', 'Noto Serif Display', 'URW Palladio L', P052, Sylfaen, serif; 
+body {
+    font-family: "Noto Serif"; 
+    background-color: var(--Background-hex);
 }
 
-body {
-    background-color: var(--Background-hex)
+header > p > a{
+    color: var(--Background-hex);
+    text-decoration: none;
 }
 
 nav > ul{ 
@@ -29,10 +32,18 @@ nav > ul> li > a{
     display: block;
     color: white;
     text-align: center;
-    padding: 0.75rem 6.3rem;
+    padding: 0.75rem 6rem;
     text-decoration: none;
 }
 nav > ul > li > a:hover {
     background-color: var(--NavBarDark);
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 2rem;
 }
 
