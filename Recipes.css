@@ -3,8 +3,8 @@ main > ul {
     flex-direction: row;
     justify-content: flex-start;
 
-    padding: 15px;
-    margin-bottom: 50px;
+    padding: 0px;
+    margin: 0px;
     list-style: none;
 }
 
@@ -21,14 +21,10 @@ main > ul:first-of-type > li + li + li {
 }
 
 main > ul > li {
-    background-image: url("../images/mango-isolated-on-white-background-600nw-610892249.webp");
-}
-
-main > ul > li {
     background-color: rgb(181, 177, 177);
 
     padding: 5px;
-    margin: 20px;
+    margin: 5px;
     width: 400px;
     height: 330px;
     line-height: 20px;
